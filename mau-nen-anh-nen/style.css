@@ -1,0 +1,54 @@
+
+/* Thiết lập kiểu chữ và màu nền cho trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf4f4;
+    color: #333333;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    color: #176b87;
+    margin-bottom: 20px;
+}
+
+/* Định dạng đoạn văn */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Khối nội dung có ảnh nền */
+.important {
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    min-height: 200px;
+    border: 3px solid #176b87;
+    border-radius: 12px;
+}
+
+/* Làm nổi bật tiêu đề trong khối */
+.important h2 {
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Giúp đoạn văn dễ đọc trên ảnh */
+.important p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px 15px;
+    border-radius: 6px;
+}
